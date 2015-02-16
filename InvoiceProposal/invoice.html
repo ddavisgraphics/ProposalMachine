@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Invoicing Document</title>
+
+<link rel="stylesheet" type="text/css" href="newstyle.css" /> 
+<link rel="stylesheet" type="text/css" href="print1.css" /> 
+
+<style type="text/css">
+.container .invbody table {
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">  
+
+	<div class="header"> <textarea class="title"> INVOICE TITLE </textarea> </div>
+    
+   
+    
+    <div class="logo"> <img src="images/invoicelogo.png" width="400" height="150" align="absmiddle"> </div>
+
+	<div class="custinfo">  <br />
+    
+    <input type="text" id="company" value="Your Company Name" size="65">
+      <input type="text" id="phone" value="Phone Number" maxlength="20">
+    <textarea id="address">Address</textarea> 
+    
+    
+  </div>
+    
+  <div class="invoinfo"> <br />
+    
+    <input type="text" id="company" value="Your Customer Name" size="65">
+      <input type="text" id="phone" value="Phone Number" maxlength="20">
+    <textarea id="address">Address</textarea>
+    	
+
+  </div>
+    
+  <div class="invbody">
+  <br />
+    <table width="757" height="332" border="1" cellpadding="4" cellspacing="0">
+      <tr align="center" valign="middle">
+        <td width="92" valign="top" bgcolor="#CCCCCC"><p>Quantity</p></td>
+        <td width="502" valign="top" bgcolor="#CCCCCC"><p>Description</p></td>
+        <td colspan="2" valign="top" bgcolor="#CCCCCC"><p>Costs</p></td>
+      </tr>
+      <tr>
+        <td width="92" height="202" valign="top"><textarea class="qty">2</textarea> </td>
+        <td width="502" valign="top"><textarea class="des">Graphic Design and Web Design Services</textarea></td>
+        <td colspan="2" valign="top"><textarea class="cost">$400.00</textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="3" align="center" valign="middle" border="0"></td>
+        <td width="74" height="34" align="center" valign="middle" bgcolor="#CCCCCC"><p>Sub-Total</p></td>
+        <td width="109" align="center" valign="middle">
+         
+         <input name="money" type="text" class="subt" id="money" value="$400.00" />
+       </td>
+      </tr>
+      <tr>
+        <td width="74" align="center" valign="middle" bgcolor="#CCCCCC"><p>Tax</p></td>
+        <td width="109" align="center" valign="middle"><p>
+          <input name="money2" type="text" class="subt" id="money2" value="$48.00" />
+        </p></td>
+      </tr>
+      <tr>
+        <td width="74" height="34" align="center" valign="middle" bgcolor="#CCCCCC"><p>Total Cost</p></td>
+        <td width="109" align="center" valign="middle"><p>
+          <input name="money3" type="text" class="subt" id="money3" value="$448.00" />
+        </p></td>
+      </tr>
+    </table>
+  </div>
+    
+   
+</div>
+
+
+</body>
+</html>

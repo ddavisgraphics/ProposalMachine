@@ -1,0 +1,8 @@
+[10-Nov-2011 23:08:09] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home3/ddavisgr/public_html/quadrantcorp/PHP Scaffold/Client/list.php on line 61
+[10-Nov-2011 23:08:14] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home3/ddavisgr/public_html/quadrantcorp/PHP Scaffold/Client/list.php on line 61
+[10-Nov-2011 23:09:33] PHP Parse error:  syntax error, unexpected '<' in /home3/ddavisgr/public_html/quadrantcorp/PHP Scaffold/Client/list.php on line 62
+[10-Nov-2011 23:09:38] PHP Parse error:  syntax error, unexpected '<' in /home3/ddavisgr/public_html/quadrantcorp/PHP Scaffold/Client/list.php on line 62
+[10-Nov-2011 23:11:34] PHP Parse error:  syntax error, unexpected '<' in /home3/ddavisgr/public_html/quadrantcorp/PHP Scaffold/Client/list.php on line 62
+[10-Nov-2011 23:13:13] PHP Parse error:  syntax error, unexpected '<' in /home3/ddavisgr/public_html/quadrantcorp/PHP Scaffold/Client/list.php on line 62
+[10-Nov-2011 23:13:21] PHP Parse error:  syntax error, unexpected '<' in /home3/ddavisgr/public_html/quadrantcorp/PHP Scaffold/Client/list.php on line 62
+[14-Nov-2011 20:01:40] PHP Parse error:  syntax error, unexpected '<' in /home3/ddavisgr/public_html/quadrantcorp/PHP Scaffold/Client/new.php on line 42
